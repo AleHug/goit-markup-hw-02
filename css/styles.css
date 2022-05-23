@@ -3,12 +3,19 @@
 }
 
 .link,
-.logo-top,
-.logo-bottom {
+.logo {
     text-decoration: none;
 }
 
-.logo-top {
+body {
+    font-family: 'Roboto', sans-serif;    
+}
+/*--------------- Components ---------------*/
+.footer {
+    background: #2F303A;
+} 
+
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -17,8 +24,15 @@
     color: #2196F3;    
 }
 
+span.black {
+    color: #000000;
+}
+
+span.white {
+    color: #FFFFFF
+}
+
 .navi-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -28,7 +42,6 @@
 
 .hedar-mail,
 .hedar-tel {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -45,8 +58,11 @@
     color: #2196F3;
 }
 
+/*--------------- Components ---------------*/
+
+/*--------------- Hero ---------------*/
+
 .hero-title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -56,13 +72,14 @@
 }
 
 .hero-btn {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
-    background-color: #2196F3;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     color: #FFFFFF;
 }
 
@@ -72,8 +89,11 @@
     color: #FFFFFF;
 }
 
-.Peculiarities-subtitle {
-    font-family: 'Roboto';
+/*--------------- /Hero ---------------*/
+
+/*--------------- Advantages ---------------*/
+
+.advantages-subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -82,11 +102,120 @@
     color: #212121;
 }
 
-.Peculiarities-text {
-    font-family: 'Roboto';
+.advantages-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/*--------------- /Advantages ---------------*/
+
+/*--------------- What are we doing ---------------*/
+
+.we-doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/*--------------- /What are we doing ---------------*/
+
+/*--------------- Our team ---------------*/
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*--------------- /Our team ---------------*/
+
+/*--------------- Footer ---------------*/
+
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail,
+.footer-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*--------------- /Footer ---------------*/
+
+/*--------------- Portfolio menu---------------*/
+
+.menu-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {    
+    color: #FFFFFF;  
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+/*--------------- /Portfolio menu---------------*/
+
+/*--------------- Portfolio gallery---------------*/
+
+.gallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.gallery-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*--------------- /Portfolio gallery---------------*/
