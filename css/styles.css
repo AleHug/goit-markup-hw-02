@@ -1,15 +1,20 @@
+:root {
+    --accent-first-color:  #FFFFFF;
+    --accent-second-color:  #2196F3;
+}
+
 .list {
     list-style: none;
 }
 
-.link,
-.logo {
+.link {
     text-decoration: none;
 }
 
 body {
     font-family: 'Roboto', sans-serif;    
 }
+
 /*--------------- Components ---------------*/
 .footer {
     background: #2F303A;
@@ -21,15 +26,16 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;    
+    text-decoration: none;
+    color: var(--accent-second-color);    
 }
 
-span.black {
+.black {
     color: #000000;
 }
 
-span.white {
-    color: #FFFFFF
+.white {
+    color: var(--accent-first-color);
 }
 
 .navi-link {
@@ -55,20 +61,23 @@ span.white {
 .hedar-mail:focus,
 .hedar-tel:hover,
 .hedar-tel:focus {
-    color: #2196F3;
+    color: var(--accent-second-color);
 }
 
 /*--------------- Components ---------------*/
 
 /*--------------- Hero ---------------*/
 
+.hero{
+    background: #2F303A;
+}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: var(--accent-first-color);
 }
 
 .hero-btn {
@@ -77,16 +86,16 @@ span.white {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
-    background: #2196F3;
+    background: var(--accent-second-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--accent-first-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #188CE8;
-    color: #FFFFFF;
+    color: var(--accent-first-color);
 }
 
 /*--------------- /Hero ---------------*/
@@ -103,7 +112,6 @@ span.white {
 }
 
 .advantages-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -147,7 +155,6 @@ span.white {
 }
 
 .team-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -159,16 +166,14 @@ span.white {
 /*--------------- Footer ---------------*/
 
 .footer-address {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--accent-first-color);
 }
 
 .footer-mail,
 .footer-tel {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -177,7 +182,11 @@ span.white {
 
 /*--------------- /Footer ---------------*/
 
-/*--------------- Portfolio menu---------------*/
+.address {
+    font-style: normal;
+}
+
+/*--------------- Portfolio ---------------*/
 
 .menu-btn {
     font-weight: 500;
@@ -192,13 +201,13 @@ span.white {
 
 .menu-btn:hover,
 .menu-btn:focus {    
-    color: #FFFFFF;  
-    background: #2196F3;
+    color: var(--accent-first-color);  
+    background: var(--accent-second-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 
-/*--------------- /Portfolio menu---------------*/
+/*--------------- /Portfolio ---------------*/
 
 /*--------------- Portfolio gallery---------------*/
 
@@ -211,7 +220,6 @@ span.white {
 }
 
 .gallery-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
