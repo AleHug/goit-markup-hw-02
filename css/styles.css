@@ -1,6 +1,8 @@
 :root {
-    --accent-first-color:  #FFFFFF;
-    --accent-second-color:  #2196F3;
+    --accent-first-color: #FFFFFF;
+    --accent-second-color: #2196F3;
+    --accent-third-color: #757575;
+    --accent-fouhrt-color: #212121;
 }
 
 .list {
@@ -43,7 +45,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--accent-fouhrt-color);
 }
 
 .hedar-mail,
@@ -52,7 +54,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--accent-third-color);
 }
 
 .navi-link:hover,
@@ -115,7 +117,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--accent-third-color);
 }
 
 /*--------------- /Advantages ---------------*/
@@ -127,7 +129,7 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--accent-fouhrt-color);
 }
 
 /*--------------- /What are we doing ---------------*/
@@ -143,7 +145,7 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--accent-fouhrt-color);
 }
 
 .team-name {
@@ -151,14 +153,14 @@ body {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--accent-fouhrt-color);
 }
 
 .team-position {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--accent-third-color);
 }
 
 /*--------------- /Our team ---------------*/
@@ -196,7 +198,7 @@ body {
     cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
-    color: #212121;
+    color: var(--accent-fouhrt-color);
 }
 
 .menu-btn:hover,
@@ -216,14 +218,14 @@ body {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--accent-fouhrt-color);
 }
 
 .gallery-description {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--accent-third-color);
 }
 
 /*--------------- /Portfolio gallery---------------*/
